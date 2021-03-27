@@ -48,7 +48,7 @@ class _HomePageDialogflowV2 extends State<HomePageDialogflowV2> {
     _textController.clear();
 
     AuthGoogle authGoogle =
-        await AuthGoogle(fileJson: "assets/sunflower-xoih-1f5db2443d88.json")
+        await AuthGoogle(fileJson: "Add your asset file here")
             .build();
     Dialogflow dialogflow =
         Dialogflow(authGoogle: authGoogle, language: Language.english);
