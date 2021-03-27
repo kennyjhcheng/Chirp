@@ -1,6 +1,6 @@
 <div align="center"><h1>Chirp</h1></div>
 <div align="center"><h3> Say hi to Chirp !</h3></div>
-<div align="center"><img src ="ChirpBot.png" width=400 height=400 style="vertical-align:middle"></div>
+<div align="center"><img src ="ChirpBot.png" width=300 height=300 style="vertical-align:middle"></div>
 
 
 
@@ -8,20 +8,17 @@
 
 # Table of Content:
 
-- [Display Shots](#display-shots)
+- [Demo](#demo)
 - [Running the project](#running-the-project)
 - [Stack in use](#stack-in-use)
 - [Member List](#member-list)
 
+## Demo
+Don't wanna clone the project? That's fine! You can meet Chirp at the following link 
+```
+https://sunflower-xoih.web.app/#/
+```
 
-
-
-
-
-## Display Shots
-
-<div align="center"><img src ="image.png" width="600" height="400"></div><br/>
- <div align="center"> <img src ="imgOne.jpg" width="600" height="550"> </div> <br/>  <div align="center">  <img src ="imgThree.jpg" width="600" height="250">   </div><br/> <div align="center">  <img src ="intro.jpg" width="600" height="110"></div> <br/>
 
 ## Running the project
 - Locate the VS Code status bar (the blue bar at the bottom of the window):
