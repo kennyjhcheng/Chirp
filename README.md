@@ -16,7 +16,7 @@
 - [Member List](#member-list)
 
 ## Demo
-Don't wanna clone the project? That's fine! You can meet Chirp at the following link 
+Don't wanna go through the trouble of cloning and running the project? That's fine! You can meet Chirp at the following link 
 ```
 https://sunflower-xoih.web.app/#/
 ```
