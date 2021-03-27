@@ -23,6 +23,8 @@ https://sunflower-xoih.web.app/#/
 
 
 ## Running the project
+- Clone the project
+- Open the project is VS code (or your favorite editor)
 - Locate the VS Code status bar (the blue bar at the bottom of the window):
 - Select a device from the Device Selector area
 - Invoke Run > Start Debugging or press f5
