@@ -13,6 +13,7 @@
 - [Stack in use](#stack-in-use)
 - [PWA support](#pwa-support)
 - [Lighthouse score](#lighthouse-score)
+- [Future scope](#future-scope)
 - [Member List](#member-list)
 
 ## Demo
@@ -44,6 +45,12 @@ Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver en
 ## Lighthouse score
 Not to flex but here's the Lighthouse score for our website
 <div align="center"><img src="lighthouseScore.jpg"/></div>
+
+## Future scope
+- Adding intents with fulfillments to send requests to a server to make responses dynamic
+- Expanding topics targeted during conversations
+- Login/signup to provide user based features
+
 
 ## Member List
 ```
