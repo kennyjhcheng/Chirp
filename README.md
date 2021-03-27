@@ -11,6 +11,8 @@
 - [Demo](#demo)
 - [Running the project](#running-the-project)
 - [Stack in use](#stack-in-use)
+- [PWA support](#pwa-support)
+- [Lighthouse score](#lighthouse-score)
 - [Member List](#member-list)
 
 ## Demo
@@ -33,6 +35,13 @@ https://sunflower-xoih.web.app/#/
 - Design : UI design was prototyped on Figma and conversational design on Miro 
 
 
+## PWA support
+Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver enhanced capabilities, reliability, and installability while reaching anyone, anywhere, on any device with a single codebase. Our application is PWA ready for your device !
+
+
+## Lighthouse score
+Not to flex but here's the Lighthouse score for our website
+<div align="center"><img src="lighthouseScore.jpg"/></div>
 
 ## Member List
 ```
