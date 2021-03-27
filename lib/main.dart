@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'BodyHack',
+      title: 'Chirp',
       routes: {
         HomePageDialogflowV2.routeName: (ctx) => HomePageDialogflowV2(),
         WelcomeBotScreen.routeName: (ctx) => WelcomeBotScreen(),
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         fontFamily: "Poppins",
       ),
-      home: new MyHomePage(title: 'BodyHack'),
+      home: new MyHomePage(title: 'Chirp'),
     );
   }
 }

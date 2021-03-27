@@ -41,6 +41,7 @@ class _LinkCardWidgetState extends State<LinkCardWidget> {
 
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
     return GestureDetector(
       onTap: () async {
         await _launchInBrowser(widget.link);
@@ -54,20 +55,25 @@ class _LinkCardWidgetState extends State<LinkCardWidget> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
           transform: _hovering ? hoverTransform : nonHoverTransform,
-          height: 200,
-          width: 200,
+          height: width < 700 ? 100 : 200,
+          width: width < 700 ? 100 : 200,
           child: Card(
             elevation: 10,
             color: Color(textComposerBackground),
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+            shape: width < 700
+                ? RoundedRectangleBorder(borderRadius: BorderRadius.circular(5))
+                : RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20)),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
                   widget.title,
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15),
+                  softWrap: true,
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: width < 700 ? 7 : 15),
                 ),
               ],
             ),
