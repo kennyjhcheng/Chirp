@@ -15,6 +15,7 @@
 - [PWA support](#pwa-support)
 - [Lighthouse score](#lighthouse-score)
 - [Testing](#testing)
+- [Conversational Design](#conversational-design)
 - [Future scope](#future-scope)
 - [Member List](#member-list)
 
