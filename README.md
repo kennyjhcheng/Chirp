@@ -85,6 +85,8 @@ https://developers.google.com/assistant/conversation-design/welcome
 - Adding intents with fulfillments to send requests to a server to make responses dynamic
 - Expanding topics targeted during conversations to cover all of topics and subtopics that come under Sex and relationship education
 - Login/signup to provide user based features
+- Feature to pick up a conversation from a particular point
+
 
 
 ## Member List
