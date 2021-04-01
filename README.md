@@ -64,15 +64,25 @@ Not to flex but here's the Lighthouse score for our website
 
 ## Testing
 - We conducted tests with random users to iteratively build Chirp to be a better application
+- Testing was conducted on zoom/discord and users were asked to share there screen or camera if they are comfortable so as to note any visible confusion/dislike about something 
 - Testing document can be found at
 ```
 https://a-s-k-studio.gitbook.io/chirp/
+```
+- We are also building unit tests , integrated tests and widget tests for flutter code itself which will make the codebase more robust in future iterations
+
+
+## Conversational Design
+- Following Google's guide on conversational design we designed our conversation even before implementing the bot itself 
+- The Guide can be found at the following link
+```
+https://developers.google.com/assistant/conversation-design/welcome
 ```
 
 
 ## Future scope
 - Adding intents with fulfillments to send requests to a server to make responses dynamic
-- Expanding topics targeted during conversations
+- Expanding topics targeted during conversations to cover all of topics and subtopics that come under Sex and relationship education
 - Login/signup to provide user based features
 
 
