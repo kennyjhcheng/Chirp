@@ -14,6 +14,7 @@
 - [Stack in use](#stack-in-use)
 - [PWA support](#pwa-support)
 - [Lighthouse score](#lighthouse-score)
+- [Testing](#testing)
 - [Future scope](#future-scope)
 - [Member List](#member-list)
 
@@ -59,6 +60,15 @@ Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver en
 ## Lighthouse score
 Not to flex but here's the Lighthouse score for our website
 <div align="center"><img src="lighthouseScore.jpg"/></div>
+
+
+## Testing
+- We conducted tests with random users to iteratively build Chirp to be a better application
+- Testing document can be found at
+```
+https://a-s-k-studio.gitbook.io/chirp/
+```
+
 
 ## Future scope
 - Adding intents with fulfillments to send requests to a server to make responses dynamic
