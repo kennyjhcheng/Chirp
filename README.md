@@ -10,6 +10,7 @@
 
 - [Demo](#demo)
 - [Running the project](#running-the-project)
+- [Creating a dialogflow agent](#creating-a-dialogflow-agent)
 - [Stack in use](#stack-in-use)
 - [PWA support](#pwa-support)
 - [Lighthouse score](#lighthouse-score)
@@ -33,10 +34,17 @@ https://sunflower-xoih.web.app/#/
 
 
 ## Creating a dialogflow agent
+- Create a dialogflow agent by following these steps from google dialogflow documents
 ```
 https://cloud.google.com/dialogflow/es/docs/quick/build-agent
 ```
-
+- Add your agents json file to pubspec.yaml file as an asset
+- Replace the dummy text in lib/pages/ChatBotPage.dart  with your agents json file
+```
+AuthGoogle authGoogle =
+        await AuthGoogle(fileJson: "Enter path to your json file")
+            .build();
+```
 
 ## Stack in use
 - Fontend : Frontend is setup using flutter and programmed in a way that it can be ran on desktop , web and android/ios !
