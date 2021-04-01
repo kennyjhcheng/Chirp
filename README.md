@@ -32,6 +32,12 @@ https://sunflower-xoih.web.app/#/
 - Wait for the app to launch — progress is printed in the Debug Console view.
 
 
+## Creating a dialogflow agent
+```
+https://cloud.google.com/dialogflow/es/docs/quick/build-agent
+```
+
+
 ## Stack in use
 - Fontend : Frontend is setup using flutter and programmed in a way that it can be ran on desktop , web and android/ios !
 - Dialogflow : All the intents and conversations are initiated from a dialogflow agent.
