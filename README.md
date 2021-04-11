@@ -88,6 +88,7 @@ https://developers.google.com/assistant/conversation-design/welcome
 - Neutral : 20%
 - Detractors: 20%
 - Based on feedbacks from these tests we updated Chirp to have a profile picture , multiple texts animation, better contexual dialog , fixing some broken intents and much more !
+- More information can be found by visiting the testing section of this readme
 
 #### Conversation Interactions
 
