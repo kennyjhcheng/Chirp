@@ -16,6 +16,7 @@
 - [Lighthouse score](#lighthouse-score)
 - [Testing](#testing)
 - [Conversational Design](#conversational-design)
+- [Evaluating Chirp](#evaluating-chirp)
 - [Future scope](#future-scope)
 - [Demo video](#demo-video)
 - [Member List](#member-list)
@@ -80,6 +81,20 @@ https://a-s-k-studio.gitbook.io/chirp/
 ```
 https://developers.google.com/assistant/conversation-design/welcome
 ```
+## Evaluating Chirp
+
+#### Net Promoter Score (NPS)
+- Promoters : 60%
+- Neutral : 20%
+- Detractors: 20%
+- Based on feedbacks from these tests we updated Chirp to have a profile picture , multiple texts animation, better contexual dialog , fixing some broken intents and much more !
+
+#### Conversation Interactions
+
+![image](https://user-images.githubusercontent.com/67299491/114323764-a152b700-9adb-11eb-9446-f8af0c1c7e8e.png)
+
+![image](https://user-images.githubusercontent.com/67299491/114324129-5cc81b00-9add-11eb-9f62-18c1c4bb97c5.png)
+
 
 
 ## Future scope
